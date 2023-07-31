@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+
+    <header>
+      <div class="header__inr">
+        <div class="name">My Profile Site</div>
+      </div>
+    </header>
+    
+    <section class="main">
+      <div class="main-sec">
+        <div class="pc main-visual">
+          <img src="img/mt-fuji.jpeg">
+          <img src="img/frog-onsen.jpeg">
+          <img src="img/gosyuin.jpeg">
+          <img src="img/camera.jpeg">
+          <img src="img/omurice.jpeg">
+          <img src="img/baymax.jpeg">
+        </div>
+        <div class="sp main-visual">
+          <img src="img/mt-fuji-sp.jpeg">
+          <img src="img/frog-onsen-sp.jpeg">
+          <img src="img/gosyuin-sp.jpeg">
+          <img src="img/camera-sp.jpeg">
+          <img src="img/omurice-sp.jpeg">
+          <img src="img/baymax-sp.jpeg">
+        </div>
+        <div class="visual-color">
+          <p>わたしのこと。</p>
+        </div>
+      </div>
+      <div class="comment-sec">
+        <div class="comment">
+          <p class="dream js-fadein">夢は「自分を見つけること」</p>
+          <div class="js-fadein">
+            <p>小さな頃からアナウンサーを目指し、<br class="sp">学級委員や放送部等積極的に活動してきた。</p>
+            <p>しかしいつも他人と比べてしまって、気づけば自分が<br class="sp">どこか遠くの場所に行ってしまった。</p>
+            <p>自分を見つけたい、そんな一心で様々な道へ進んでは迷ってしまう。</p>
+            <p>唯一無二の自分を求めて今歩んでいる道は、<br class="sp">webデザイナーの道。</p>
+            <p>webデザインで、自分へたどり着く。</p>
+          </div>
+        </div>
+        <div class="introduction">
+          <div class="intro-box">
+          <img src="img/profile.png">
+          <div class="js-fadein">
+            <div class="mini-title">YUI SAITO</div>
+            <p>趣味はゲーム、特技は就寝、好きな漫画はスラムダンク。</p>
+            <p>なんでこの時代に生まれてきたんだろう、と呑気に考えたりする哲学系女子。</p>
+            <p>旅行が好きで、そこでしかできない写真を撮って体験をしたい。<br class="sp">世界一周するのも夢。</p>
+            <p>他人からは真面目で良い子、明るい子と言われるので悪い子になりたい。<br class="sp">究極の猫かぶりのため、</p>
+            <p>皮が剝がれてくると人間的にバカな部分が出てくるので注意。</p>
+            <p>お酒は1人で飲むのではなく、<br class="sp">みんなで飲んでたくさん話すことを楽しむ派。</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section">
+        <p class="title">Web Site</p>
+        <div class="title-under"></div>
+        <div class="site">
+          <div class="site-viewer corporation js-delay">
+            <p class="mini-title">Corporation</p>
+            <img src="img/corporation.png">
+            <a href="https://yui7burgundy.github.io/corporation/"><p class="view">view site</p></a>
+          </div>
+          <div class="site-viewer lp js-delay">
+            <p class="mini-title">LP</p>
+            <img src="img/gramnista.png">
+            <a href="https://yui7burgundy.github.io/gramnista/"><p class="view">view site</p></a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="section flyer-sec">
+        <p class="title">Flyer</p>
+        <div class="title-under"></div>
+        <ul class="flyer js-main-visual">
+          <li><img src="img/Flyer-01.png" width="100%"></li>
+          <li><img src="img/Flyer-02.png" width="100%"></li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p class="name">YUI SAITO</p>
+        <div>
+          <p>mail:yntsyuiyui@gmail.com</p>
+          <p>Tel:070-3842-9904</p>
+        </div>
+      </div>
+    </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'lxm2mwr',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'djo0mwr',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+</body>
+</html>
