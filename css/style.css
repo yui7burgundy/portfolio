@@ -254,7 +254,6 @@ header {
 }
 
 .footer > div > p {
-  letter-spacing: 2px;
   line-height: 15px;
   margin: 20px 0;
 }
@@ -310,6 +309,7 @@ body {
 
 .dream {
   font-size: 23px;
+  letter-spacing: 1px;
 }
 
 .intro-box {
@@ -353,7 +353,8 @@ body {
 }
 
 .footer > div > p {
-  font-size: 13px;
+  font-size: 12px;
+  letter-spacing: 1px;;
 }
 
 .flyer-sec {
