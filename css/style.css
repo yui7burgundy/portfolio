@@ -3,7 +3,7 @@
 body {
   background-color: #ffffff;
   margin:  72px auto 0;
-  min-width: 1024px;
+  width: 100%;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -103,16 +103,17 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+}
+
+.intro-box > div > img {
+  width: 200px;
 }
 
 .intro-box > div > p {
   font-size: 14px;
   line-height: 25px;
   letter-spacing: 1.8px;
-}
-
-.introduction > div > img {
-  width: 200px;
 }
 
 
